@@ -18,19 +18,19 @@ No Frida, no Android device, and no external npm packages required — pure Node
 ## Usage
 
 ```bash
-node dec.js <input.lua> [output.lua]
+node Decrypt.js <input.lua> [output.lua]
 ```
 
 **Examples:**
 
 Decrypt and save to a file:
 ```bash
-node dec.js encrypted.lua decrypted.lua
+node Decrypt.js encrypted.lua decrypted.lua
 ```
 
 Preview the first 128 bytes in the terminal (omit output path):
 ```bash
-node dec.js encrypted.lua
+node Decrypt.js encrypted.lua
 ```
 
 ## GLSC v2 Format Overview
